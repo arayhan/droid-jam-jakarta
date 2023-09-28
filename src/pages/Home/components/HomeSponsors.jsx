@@ -17,7 +17,12 @@ export const HomeSponsors = (type) => {
 						<div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
 							{DIAMOND_SPONSORS.map((sponsor) => (
 								<div onClick={() => handleClick(sponsor)} className={`${sponsor.url ? 'cursor-pointer' : ''}`}>
-									<img className="w-72 lg:w-80" src={sponsor.image} alt={sponsor.name} />
+									<img
+										style={sponsor.size && { width: sponsor.size }}
+										className="w-72 lg:w-80"
+										src={sponsor.image}
+										alt={sponsor.name}
+									/>
 								</div>
 							))}
 						</div>

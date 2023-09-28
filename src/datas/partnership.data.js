@@ -16,6 +16,12 @@ export const DATA_PARTNERSHIP = {
 				image: require('@/images/sponsors/2023/dicoding.png'),
 				url: 'https://www.dicoding.com/',
 			},
+			DIGITAL_HUB: {
+				name: 'Digital Hub',
+				image: require('@/images/sponsors/2023/digitalhub.png'),
+				url: 'https://digitalhub-bsdcity.com/',
+				size: 240,
+			},
 		},
 		PLATINUM: {},
 		GOLD: {
@@ -23,6 +29,11 @@ export const DATA_PARTNERSHIP = {
 				name: 'NBS',
 				image: require('@/images/sponsors/2023/nbs.png'),
 				url: 'https://nbs.co.id/',
+			},
+			TIPTIP: {
+				name: 'TIPTIP',
+				image: require('@/images/sponsors/2023/tiptip.webp'),
+				url: 'https://tiptip.co/',
 			},
 		},
 	},
