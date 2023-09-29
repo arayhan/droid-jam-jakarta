@@ -133,6 +133,21 @@ export const DATA_SPEAKER = {
 			},
 		],
 	},
+	'panji-gautama': {
+		key: 'panji-gautama',
+		name: 'Panji Gautama',
+		country: require('@/images/flags/indonesia.webp'),
+		designation: ['Chief Technology Officer, TipTip'],
+		talk_title: "Weekly Release Without Disturbing Your Peace",
+		bio: "10+ years CTO/VP Engineering of experience across Mekari, OVO, Grab, and Kudo.",
+		avatar: require('@/images/speakers/2023/Panji Gautama.jpeg.jpg'),
+		socials: [
+			{
+				type: 'linkedin',
+				url: 'https://www.linkedin.com/in/panjigautama/',
+			},
+		],
+	},
 };
 
 export const DATA_SPEAKER_ARRAY = Object.values(DATA_SPEAKER);
