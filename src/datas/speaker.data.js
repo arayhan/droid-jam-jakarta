@@ -123,7 +123,7 @@ export const DATA_SPEAKER = {
 		name: 'Arif Faizin',
 		country: require('@/images/flags/indonesia.webp'),
 		designation: ['Curriculum Developer Lead, Dicoding Indonesia'],
-		talk_title: undefined,
+		talk_title: "Bringing Machine Learning to Android: A Deep Dive into MediaPipe",
 		bio: undefined,
 		avatar: require('@/images/speakers/2023/arif faizin.jpeg'),
 		socials: [
