@@ -108,7 +108,7 @@ export const DATA_SCHEDULE = [
 	},
 	{
 		uuid: uuidv4(),
-		time: '12.30 - 13.00',
+		time: '11.30 - 12.30',
 		duration: '60',
 		agenda: 'Break',
 		title: null,
