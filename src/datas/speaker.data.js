@@ -148,6 +148,21 @@ export const DATA_SPEAKER = {
 			},
 		],
 	},
+	'danang-juffry': {
+		key: 'danang-juffry',
+		name: 'Danang Juffry',
+		country: require('@/images/flags/indonesia.webp'),
+		designation: ['Community Manager and Developer Relation at Google'],
+		talk_title: '#JuaraAndroid - Info Session',
+		bio: 'Experienced Consultant with a demonstrated history of working in the information technology and services industry. Skilled in Negotiation, Investor Relations, Business Planning, Operations Management, and Event Management. Strong consulting professional with a Bachelor’s Degree focused in Industrial Engineering.',
+		avatar: require('@/images/speakers/2023/danang-juffry.webp'),
+		socials: [
+			{
+				type: 'linkedin',
+				url: 'https://www.linkedin.com/in/danjuf/',
+			},
+		],
+	},
 };
 
 export const DATA_SPEAKER_ARRAY = Object.values(DATA_SPEAKER);

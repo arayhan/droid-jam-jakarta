@@ -6,7 +6,7 @@ import { DATA_EVENT } from '@/datas';
 import { Container } from '@/components/atoms';
 
 export const HomeBanner = () => {
-	const IS_SHOW_COUNTDOWN = true;
+	const IS_SHOW_COUNTDOWN = false;
 
 	return (
 		<section>

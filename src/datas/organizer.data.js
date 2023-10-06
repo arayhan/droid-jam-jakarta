@@ -16,7 +16,7 @@ export const DATA_ORGANIZER = {
 		key: 'sidiq-permana',
 		name: 'Sidiq Permana',
 		designation: ['GDE Android', 'NBS.DEV'],
-		avatar: require('@/images/organizers/sidiq-permana.jpeg'),
+		avatar: require('@/images/organizers/Sidiq Permana.png'),
 		bio: undefined,
 		socials: [
 			{
@@ -81,7 +81,7 @@ export const DATA_ORGANIZER = {
 		key: 'danang-juffry',
 		name: 'Danang Juffry',
 		designation: ['Google'],
-		avatar: require('@/images/organizers/danang-juffry.jpeg'),
+		avatar: require('@/images/organizers/danang-juffry.webp'),
 		bio: undefined,
 		socials: [
 			{

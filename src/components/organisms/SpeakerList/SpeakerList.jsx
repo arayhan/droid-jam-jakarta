@@ -6,7 +6,7 @@ import { ROUTES } from '@/routes';
 export const SpeakerList = () => {
 	const navigate = useNavigate();
 	return (
-		<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+		<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
 			{DATA_SPEAKER_ARRAY.map((speaker) => (
 				<button
 					key={speaker.name}
@@ -31,10 +31,10 @@ export const SpeakerList = () => {
 							</div>
 						)}
 					</div>
-					<div className="flex flex-col justify-between w-full flex-1">
+					<div className="flex flex-col justify-between flex-1 w-full">
 						<div className="flex-1 p-4 pb-2 space-y-4">
 							<div className="space-y-1">
-								<h1 className="text-sm font-semibold sm:text-base relative">{speaker.name} </h1>
+								<h1 className="relative text-sm font-semibold sm:text-base">{speaker.name} </h1>
 								<div className="text-xs sm:text-sm">
 									{speaker.designation.map((designation) => (
 										<div key={designation}>{designation}</div>
